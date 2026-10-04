@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		265CAA9548E13CF44B7E3050 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E137563D1C7D7BE75E0BF0C4 /* NotificationManager.swift */; };
+		3B2627911C13068785C34F33 /* AuraFishApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA34D227E28BBA3155A23624 /* AuraFishApp.swift */; };
+		3CA583558EB45927964C6576 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86CC3164E677507F107772D0 /* Assets.xcassets */; };
+		5B9EACFD9E4B1689D7F5FA62 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEBCF5CF72C5A1C305CE4A4E /* Foundation.framework */; };
+		7D97B7C4FC72C44406730078 /* AuraFishiOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8967DB26FF3F33A549811B29 /* AuraFishiOSApp.swift */; };
+		8510AB2E013AC838E6AFD864 /* AuraFish Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = B6D7859BBF6B952E9D7C2425 /* AuraFish Watch App.app */; };
+		8BD7D49A316860F79376BFA9 /* MainFishView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6246FBF08F7EA26A17B077 /* MainFishView.swift */; };
+		92A605B27ADA1ABDF30CD1D3 /* FishState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E99FEBBF0E06D08F3120228 /* FishState.swift */; };
+		9346743252E6548846949B7E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A7B86D1AE90ED0827543F45 /* Foundation.framework */; };
+		A6B0B5286C5FF593590D9A61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EC44033E32F9DC7D7E85F5C /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D0AA2F9AA55CBC4A4F4946AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32405E11325C075A44FF07D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B0C17CFBD9E6CA7A0EF178E;
+			remoteInfo = "AuraFish Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9DB0B46B4CB588A06321BAFC /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				8510AB2E013AC838E6AFD864 /* AuraFish Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1EC44033E32F9DC7D7E85F5C /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4B6246FBF08F7EA26A17B077 /* MainFishView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MainFishView.swift; path = Views/MainFishView.swift; sourceTree = "<group>"; };
+		5A7B86D1AE90ED0827543F45 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS11.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5E99FEBBF0E06D08F3120228 /* FishState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FishState.swift; path = Models/FishState.swift; sourceTree = "<group>"; };
+		86CC3164E677507F107772D0 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8967DB26FF3F33A549811B29 /* AuraFishiOSApp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AuraFishiOSApp.swift; sourceTree = "<group>"; };
+		92DC32EAE354F9AA1E912761 /* AuraFish.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AuraFish.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA34D227E28BBA3155A23624 /* AuraFishApp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AuraFishApp.swift; sourceTree = "<group>"; };
+		B6D7859BBF6B952E9D7C2425 /* AuraFish Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AuraFish Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEBCF5CF72C5A1C305CE4A4E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E137563D1C7D7BE75E0BF0C4 /* NotificationManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NotificationManager.swift; path = Services/NotificationManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B60631477A510DDC556868FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B9EACFD9E4B1689D7F5FA62 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDC0A115298F9C7FAF4282D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9346743252E6548846949B7E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11B14429D72E7639E92759ED = {
+			isa = PBXGroup;
+			children = (
+				AD3FC9AA39D5B727400B4205 /* Products */,
+				951DC5DD5C417F5450A7C70D /* Frameworks */,
+				D5C0B89A867A2C1F5C2CDE11 /* Sources */,
+			);
+			sourceTree = "<group>";
+		};
+		3BC977BAB74EB935C3ECC672 /* watchOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A7B86D1AE90ED0827543F45 /* Foundation.framework */,
+			);
+			name = watchOS;
+			sourceTree = "<group>";
+		};
+		951DC5DD5C417F5450A7C70D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A7F8290E2116EBB28E496BA3 /* iOS */,
+				3BC977BAB74EB935C3ECC672 /* watchOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A7F8290E2116EBB28E496BA3 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				DEBCF5CF72C5A1C305CE4A4E /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		AD3FC9AA39D5B727400B4205 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92DC32EAE354F9AA1E912761 /* AuraFish.app */,
+				B6D7859BBF6B952E9D7C2425 /* AuraFish Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5C0B89A867A2C1F5C2CDE11 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				AA34D227E28BBA3155A23624 /* AuraFishApp.swift */,
+				8967DB26FF3F33A549811B29 /* AuraFishiOSApp.swift */,
+				5E99FEBBF0E06D08F3120228 /* FishState.swift */,
+				E137563D1C7D7BE75E0BF0C4 /* NotificationManager.swift */,
+				4B6246FBF08F7EA26A17B077 /* MainFishView.swift */,
+				86CC3164E677507F107772D0 /* Assets.xcassets */,
+				1EC44033E32F9DC7D7E85F5C /* Assets.xcassets */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B0C17CFBD9E6CA7A0EF178E /* AuraFish Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C30BCBA39DE518CD71F66C7 /* Build configuration list for PBXNativeTarget "AuraFish Watch App" */;
+			buildPhases = (
+				DA338207D083351152621A36 /* Sources */,
+				DDC0A115298F9C7FAF4282D3 /* Frameworks */,
+				9B67DAC32BFE5FF8A5D56212 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AuraFish Watch App";
+			productName = "AuraFish Watch App";
+			productReference = B6D7859BBF6B952E9D7C2425 /* AuraFish Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		777592381A239BD2E4402571 /* AuraFish */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F3158079A4B3A30EA237B43 /* Build configuration list for PBXNativeTarget "AuraFish" */;
+			buildPhases = (
+				4D9DE68C5B51E55406091C7D /* Sources */,
+				B60631477A510DDC556868FD /* Frameworks */,
+				D9C583BBC96FEA1154E6E28D /* Resources */,
+				9DB0B46B4CB588A06321BAFC /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0259FE859416F4433B96EDE9 /* PBXTargetDependency */,
+			);
+			name = AuraFish;
+			productName = AuraFish;
+			productReference = 92DC32EAE354F9AA1E912761 /* AuraFish.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32405E11325C075A44FF07D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					3B0C17CFBD9E6CA7A0EF178E = {
+						DevelopmentTeam = Q9YC9DLD52;
+					};
+					777592381A239BD2E4402571 = {
+						DevelopmentTeam = Q9YC9DLD52;
+					};
+				};
+			};
+			buildConfigurationList = D4FF9380C02A953A20596E67 /* Build configuration list for PBXProject "AuraFish" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 11B14429D72E7639E92759ED;
+			productRefGroup = AD3FC9AA39D5B727400B4205 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				777592381A239BD2E4402571 /* AuraFish */,
+				3B0C17CFBD9E6CA7A0EF178E /* AuraFish Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B67DAC32BFE5FF8A5D56212 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6B0B5286C5FF593590D9A61 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9C583BBC96FEA1154E6E28D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CA583558EB45927964C6576 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D9DE68C5B51E55406091C7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D97B7C4FC72C44406730078 /* AuraFishiOSApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA338207D083351152621A36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B2627911C13068785C34F33 /* AuraFishApp.swift in Sources */,
+				92A605B27ADA1ABDF30CD1D3 /* FishState.swift in Sources */,
+				265CAA9548E13CF44B7E3050 /* NotificationManager.swift in Sources */,
+				8BD7D49A316860F79376BFA9 /* MainFishView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0259FE859416F4433B96EDE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "AuraFish Watch App";
+			target = 3B0C17CFBD9E6CA7A0EF178E /* AuraFish Watch App */;
+			targetProxy = D0AA2F9AA55CBC4A4F4946AC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1B06C7B88FB8614AC4E1350B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = WatchAppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = Q9YC9DLD52;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = "arm64_32 armv7k";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.air.AuraFish;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				MARKETING_VERSION = 1.0.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.air.AuraFish.watchapp;
+				PRODUCT_NAME = "AuraFish Watch App";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "watchos watchsimulator";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		38C180B3B9A2A4994591ED05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = Q9YC9DLD52;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleIconName = AppIcon;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.air.AuraFish;
+				PRODUCT_NAME = AuraFish;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		5164A4C6A38356D062E3F3D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		8FC6C39981AC21FF0CAB02A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		9B0BAF0100D21581F0A836C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = Q9YC9DLD52;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleIconName = AppIcon;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.air.AuraFish;
+				PRODUCT_NAME = AuraFish;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BEA7A015C060D8A601D8E377 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = WatchAppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = Q9YC9DLD52;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = "arm64_32 armv7k";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.air.AuraFish;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				MARKETING_VERSION = 1.0.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.air.AuraFish.watchapp;
+				PRODUCT_NAME = "AuraFish Watch App";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "watchos watchsimulator";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F3158079A4B3A30EA237B43 /* Build configuration list for PBXNativeTarget "AuraFish" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B0BAF0100D21581F0A836C0 /* Release */,
+				38C180B3B9A2A4994591ED05 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7C30BCBA39DE518CD71F66C7 /* Build configuration list for PBXNativeTarget "AuraFish Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B06C7B88FB8614AC4E1350B /* Release */,
+				BEA7A015C060D8A601D8E377 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4FF9380C02A953A20596E67 /* Build configuration list for PBXProject "AuraFish" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5164A4C6A38356D062E3F3D4 /* Debug */,
+				8FC6C39981AC21FF0CAB02A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 32405E11325C075A44FF07D8 /* Project object */;
+}
