@@ -87,7 +87,8 @@ ios_target.add_dependency(watch_target)
 # Create a Copy Files phase to embed the Watch App
 embed_watch_phase = ios_target.new_copy_files_build_phase('Embed Watch Content')
 embed_watch_phase.dst_subfolder_spec = '16' # 16 corresponds to the iOS app's 'Watch' wrapper directory
-embed_watch_phase.add_file_reference(watch_target.product_reference)
+build_file = embed_watch_phase.add_file_reference(watch_target.product_reference)
+build_file.settings = { 'ATTRIBUTES' => ['CodeSignOnCopy'] }
 
 # 9. Save the project
 project.save
