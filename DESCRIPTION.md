@@ -1,46 +1,54 @@
-# AuraFish: 워치 전용 1년 키우기 다마고치 앱스토어 상세 설명 (DESCRIPTION.md)
+# AuraFish: 앱스토어 상세 설명서 (DESCRIPTION.md) - 오해 해소 수정본
 
-이 문서는 앱스토어 커넥트의 **`설명 (Description, 최대 4,000자)`** 입력란에 그대로 복사해서 사용하실 수 있는 최종 마케팅 문안입니다.
+## 📝 한국어 앱스토어 설명 (App Store Description)
 
----
-
-## 📝 앱스토어 등록용 설명 복사 본문
-
-```markdown
+```text
 매달 지불하는 비싼 구독료와 화면 속 징그러운 광고, 그리고 끊임없는 서버 연결 강제에 지치셨나요?
-《AuraFish》는 구독 피로감 없는 단 한 번의 결제(One-time Purchase)로 평생 소장하며, 바쁜 일상 속에서 오직 손목 위의 애플워치 단독으로 따뜻하게 교감할 수 있는 프리미엄 수중 다마고치 육성 게임입니다.
+《AuraFish》는 구독 피로감 없는 단 한 번의 영구 소장 결제로 아이폰과 아이패드의 시원한 화면에서 터치로 물고기와 교감하고, 손목 위의 애플워치로도 독립적으로 가볍게 케어할 수 있는 프리미엄 수중 아쿠아리움 다마고치 게임입니다.
 
-외부 서버 전송이 일절 없는 100% 철저한 기기 내 로컬 구동 방식을 사용하여, 당신의 애플워치 배터리를 완벽히 보호하며 손목 위에서 아름답게 헤엄치는 나만의 반려 물고기를 키울 수 있습니다.
+외부 서버 전송이 일절 없는 100% 로컬 구동 방식으로, 네트워크가 없는 비행기 안이나 오지에서도 배터리 걱정 없이 안전하게 나만의 반려 물고기를 키울 수 있습니다.
 
-■ 왜 《AuraFish》는 1만 원 이상의 소장 가치를 할까요?
+■ 기기별 최적화된 독립 플레이:
 
-1. 365일(1년)간 매일 성취하는 '초장기 성장 시스템'
-- 단 하루 이틀 만에 끝나는 시중의 얕은 육성 게임이 아닙니다. AuraFish가 진정한 성체로 자라나기 위해서는 정확히 1년(365일)간의 꾸준한 먹이 주기와 따뜻한 보살핌이 필요합니다.
-- 매일 손목 위를 확인하며 소소하지만 장기적인 습관 형성과 잔잔한 하루의 힐링을 만끽해 보세요.
+1. iPhone & iPad: 인터랙티브 터치 수족관 ("AuraFish Studio")
+- 터치 한 번으로 물속에 먹이 방울을 떨어뜨리고 열대어들이 모여드는 모습을 감상하세요.
+- 'Add Fish' 버튼으로 다양한 색상의 유니크한 물고기들을 자유롭게 추가할 수 있습니다.
+- 애플워치가 없어도 아이폰과 아이패드 단독으로 100% 완벽하게 모든 기능을 플레이할 수 있습니다.
 
-2. 먹이를 줄 때마다 진화하는 '무제한 색상 모핑'
-- 먹이를 줄 때마다 물고기의 베이스 컬러와 아름다운 아우라 빛이 미세하게 융합하며 진화(Procedural Coloring)합니다.
-- 고유한 난수 알고리즘에 의해 색상이 변화하므로, 365일 뒤 전 세계 유저들은 모두 각기 다른 모양과 은하수처럼 다채로운 색상의 유니크한 성체 물고기를 마주하게 됩니다. 오직 당신만을 위한 우주 유일의 물고기입니다.
+2. Apple Watch: 손목 위의 힐링 햅틱 다마고치 (독립 구동)
+- 워치를 착용했을 때 시계를 보며 햅틱 모터의 타격감 있는 진동과 함께 가볍게 먹이를 줄 수 있습니다.
+- 워치 페이스 컴플리케이션으로 물고기 상태를 언제든 확인할 수 있습니다.
 
-3. 언제나 함께하는 '애플워치 페이스 컴플리케이션'
-- 유료 워치 앱 개발의 정수! 사용자의 애플워치 시계 화면(페이스) 한구석에 내 물고기의 상태(배고픔 유무 및 현재의 오묘한 색상)를 귀엽게 항상 띄워둘 수 있습니다. 
-- 복잡하게 앱을 열지 않고도 시계를 볼 때마다 물고기가 잘 있는지 원클릭으로 가볍게 케어하세요.
-
-4. 손목을 울리는 타격감 넘치는 '햅틱 피드백'
-- 물속에서 둥실 떠오르는 부유 공기방울 애니메이션을 보며 '먹이 주기' 버튼을 탭해 보세요!
-- 물속 밥풀이 톡 터짐과 동시에 워치 내부의 리니어 모터가 '드르륵-'하고 고품격 햅틱 피드백(.success)을 주어, 가상 펫과의 물리적이고 타격감 넘치는 실제적인 교감을 선물합니다.
-
-5. 100% 무서버(Serverless) '7일 선예약 랜덤 알림'
-- 개발자의 개인 서버를 전혀 타지 않아 서버 지연이나 네트워크 끊김이 없습니다.
-- 앱을 열 때마다 워치가 스스로 향후 7일간의 날짜를 계산하고, 매일 오전 10시~저녁 8시 사이의 완전히 불규칙한 시간대를 무작위(Random)로 추적해 먹이 주기 푸시 알림을 예약합니다. 언제 알림이 울릴지 모르는 흥미진진한 다마고치 감성을 만나보세요!
-
-■ 이런 분들께 강력하게 추천해 드립니다!
-- 매달 결제해야 하는 가상 펫 육성 앱의 구독료에 피로감을 느끼시는 분
-- 비싼 애플워치를 단순 알림 시계용으로만 방치하지 않고, 손목 위를 감성적으로 반짝이게 꾸미고 싶으신 분
-- 바쁜 학업과 직장 생활 속에서 매 순간 손이 많이 가지 않으면서도 하루 단 3초로 소소한 힐링을 얻고 싶으신 분
-- 기기 네트워크 환경이 단절된 비행기 안, 오지에서도 배터리 걱정 없이 안전하게 작동하는 명품 워치 게임을 원하시는 분
+■ 이런 분들께 강력 추천합니다!
+- 매달 나가는 구독료 없이 단 한 번 구매로 평생 소장하는 게임을 찾으시는 분
+- 아이폰과 아이패드의 큰 화면에서 평화로운 수족관을 터치하며 힐링하고 싶으신 분
+- 손목 위 애플워치에서도 독립적으로 귀여운 펫을 키우고 싶으신 분
+- 광고와 인앱 결제 없는 순수한 게임 경험을 원하시는 분
+```
 
 ---
-지금 단 한 번의 결제로 《AuraFish》를 평생 소장해 보세요.
-시간을 사주고 지루한 일상에 따뜻한 아우라를 전해주는 손목 위 수족관이 당신의 곁을 평생 지켜드립니다!
+
+## 📝 영문 앱스토어 설명 (English Description)
+
+```text
+Tired of expensive monthly subscriptions, intrusive ads, and mandatory cloud logins?
+AuraFish is a premium, lifetime-ownership aquarium and virtual pet game designed to run beautifully on your iPhone, iPad, and Apple Watch.
+
+Zero external servers, zero tracking, and 100% on-device local execution. Enjoy your personal aquarium anytime, anywhere, even in Airplane mode.
+
+■ Features Across Apple Devices:
+
+1. iPhone & iPad: Interactive Touch Aquarium ("AuraFish Studio")
+- Tap anywhere on your screen to drop food bubbles and watch tropical fishes swim and feed in real time.
+- Tap 'Add Fish' to spawn unique, colorful procedural fish into your private aquarium.
+- 100% standalone and fully playable on iPhone and iPad with NO external hardware or Apple Watch required.
+
+2. Apple Watch: Wrist Micro-Pet (Standalone watchOS Experience)
+- Care for your virtual companion directly on your wrist with rich Taptic Engine haptic feedback.
+- Glance at your watch face complication to check on your pet throughout the day.
+
+■ Recommended For:
+- Users seeking a relaxing, ad-free, subscription-free zen aquarium game.
+- Anyone looking for a tactile visual experience on iPad and iPhone.
+- Apple Watch owners who want an independent, lightweight wrist companion.
 ```

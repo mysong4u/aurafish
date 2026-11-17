@@ -43,15 +43,16 @@ ios_target.build_configurations.each do |config|
   config.build_settings['PRODUCT_BUNDLE_IDENTIFIER'] = "com.air.#{project_name}"
   config.build_settings['PRODUCT_NAME'] = 'AuraFish'
   config.build_settings['GENERATE_INFOPLIST_FILE'] = 'YES'
+  config.build_settings['INFOPLIST_KEY_UIRequiredDeviceCapabilities'] = 'arm64' # Correct for iOS
   config.build_settings['SWIFT_VERSION'] = '5.0'
-  config.build_settings['TARGETED_DEVICE_FAMILY'] = '1' # iPhone
+  config.build_settings['TARGETED_DEVICE_FAMILY'] = '1,2' # iPhone & iPad
   config.build_settings['ONLY_ACTIVE_ARCH'] = 'YES'
   config.build_settings['SKIP_INSTALL'] = 'NO'
   config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '17.0'
   config.build_settings['SDKROOT'] = 'iphoneos' # Force iOS SDK
   config.build_settings['SUPPORTED_PLATFORMS'] = 'iphoneos iphonesimulator' # Set iOS platforms
   config.build_settings['MARKETING_VERSION'] = '1.0.0'
-  config.build_settings['CURRENT_PROJECT_VERSION'] = '4'
+  config.build_settings['CURRENT_PROJECT_VERSION'] = '5'
   config.build_settings['ASSETCATALOG_COMPILER_APPICON_NAME'] = 'AppIcon'
   config.build_settings['INFOPLIST_KEY_CFBundleIconName'] = 'AppIcon'
 end
@@ -62,10 +63,11 @@ watch_target.build_configurations.each do |config|
   config.build_settings['PRODUCT_NAME'] = 'AuraFish Watch App'
   config.build_settings['GENERATE_INFOPLIST_FILE'] = 'YES'
   
+  # Note: INFOPLIST_KEY_UIRequiredDeviceCapabilities is intentionally omitted for watchOS Target to satisfy watchOS 27+ installation checks.
+  
   # Standard Apple standalone keys (Satisfies both the standalone requirement and simulator companion validation)
   config.build_settings['INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp'] = 'YES' # True standalone watch app!
   config.build_settings['INFOPLIST_KEY_WKCompanionAppBundleIdentifier'] = "com.air.#{project_name}" # Point to parent iOS app
-  config.build_settings['INFOPLIST_KEY_UIRequiredDeviceCapabilities'] = 'arm64_32 armv7k'
   
   config.build_settings['INFOPLIST_KEY_ITSAppUsesNonExemptEncryption'] = 'NO'
   config.build_settings['SWIFT_VERSION'] = '5.0'
@@ -73,7 +75,7 @@ watch_target.build_configurations.each do |config|
   config.build_settings['DEVELOPMENT_TEAM'] = ''
   config.build_settings['ASSETCATALOG_COMPILER_APPICON_NAME'] = 'WatchAppIcon'
   config.build_settings['MARKETING_VERSION'] = '1.0.0'
-  config.build_settings['CURRENT_PROJECT_VERSION'] = '4'
+  config.build_settings['CURRENT_PROJECT_VERSION'] = '5'
   config.build_settings['ONLY_ACTIVE_ARCH'] = 'YES'
   config.build_settings['SKIP_INSTALL'] = 'YES' # The watch target is nested, so skip independent install!
   config.build_settings['WATCHOS_DEPLOYMENT_TARGET'] = '10.0'
